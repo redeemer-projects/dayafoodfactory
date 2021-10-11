@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Daya Lifestyle</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+              <!-- Compiled and minified CSS -->
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+              
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+              
+              <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+              <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+              <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap" rel="stylesheet">
+              <style>
+                  nav 
+                  {
+                      margin:0;
+                      padding:0;
+                  }
+                  .logo
+                  {
+                      font-family:'lemonda',sans-serif;
+                      font-weight: bold;
+                  }
+           
+               .topbar p{
+                   font-weight: bold;
+                   color:#fff;
+                   padding-top:5px;
+               }
+               .topbaricon 
+               {
+                  margin-top:10px;
+
+               }
+               .link
+               {
+                   font-weight: bold;
+               }
+               .link:hover 
+               {
+                   font-weight: normal;
+               }
+               .descrip
+               {
+               padding:0px 50px;
+               }
+               .slider .indicators .indicator-item.active 
+               {
+                  
+                   background-color:hotpink!important;
+               }
+               .services 
+               {
+                padding:0px 50px;
+               }
+              </style>
+              
+
+    </head>
+    <body>
+    
+        <nav class="white" style="margin-top: 0;">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo black-text logo">Daya Lifestyle</a>
+        
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons black-text">menu</i>
+                </a>
+        
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#" class="black-text link">Home</a></li>
+                    <li><a href="#" class="black-text link">Products</a></li>
+                    <li><a href="#" class="black-text link">Service</a></li>
+                    <li><a href="#" class="black-text link">About</a></li>
+                    
+                </ul>
+                
+            </div>
+
+        </nav>
+
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#">Home</a></li>
+            <li><a href="#" class="link">Video</a></li>
+            <li><a href="#" class="link">Service</a></li>
+            <li><a href="#" class="link">About</a></li>
+            <li><a href="#" class="link">Contact</a></li>
+            <li><a href="#" class="link">Gallery</a></li>
+</ul>
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="Images/slider1.webp">
+                <div class="caption center-align white-text">
+                    <h3 class="black-text">Quality Products </h3>
+                    <h5>We Deliver to your Home</h5>
+                </div>
+            </li>
+            <li>
+                <img src="Images/slider2.jpg">
+                <div class="caption center-align white-text">
+                    <h3>Quality Products </h3>
+                    <h5 class="light text-lighten-3">We Deliver to your Home</h5>
+                </div>
+            </li>
+            <li>
+                <img src="Images/slider3.jpg">
+                <div class="caption center-align white-text">
+                    <h3>Quality Products </h3>
+                    <h5>We Deliver to your Home</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+<section class="descrip">
+    <div class="section white">
+        <h3 class="header">Best Online Supermarket</h3>
+        <div class="row container-fluid">
+            <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt libero consequuntur numquam ipsum, veritatis velit blanditiis provident, repellendus cumque voluptates sit! Velit voluptate doloribus, tempore voluptas iusto aspernatur consequatur rerum quo, quisquam odit dolorum eius atque unde minus, vel inventore dolores alias iste enim architecto? Architecto quasi in ipsam eligendi facilis maxime nesciunt totam! Odio dolores perspiciatis debitis eum asperiores, dolorum minima! Amet earum labore voluptate unde natus, cum perspiciatis ad saepe dolorum neque temporibus harum sunt, ullam eaque eveniet, repudiandae alias odio qui quis fugiat explicabo. Quas quasi eligendi mo
+                lestias laborum incidunt assumenda nihil maxime atque, veritatis sint mollitia!</p>
+        </div>
+    </div>
+</section>
+<section class="services">
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="col s12 m12 l4">
+                
+              <h5>Finest Prouducts</h5>
+
+              <p>Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Laudantium, in.</p>
+                </div>
+          
+                <div class="col s12 m12 l4">
+                    <h5>Home Delivery</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Laudantium, in.</p>
+                      </div>
+                      
+                <div class="col s12 m12 l4">
+                    <h5>Affordable Rates</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Laudantium, in.</p>
+                      </div>
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script>
+$(document).ready(function(){
+$('.sidenav').sidenav();
+$('.slider').slider({full_width:true})
+});
+</script>
+</body>
+</html>
